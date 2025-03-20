@@ -1,1 +1,81 @@
+/*Login form container style*/
 
+#login-form {
+  float: right;
+}
+#login-form #username {
+  margin-bottom: -1px;
+}
+#login-form #password {
+  margin-bottom: 10px;
+}
+
+#login-form #login-submit {
+  color: #fff;
+  background-color: #0055aa;
+  border-color: #2e6da4;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  display: block;
+}
+
+#login-form-container {
+  background-color: white;
+  font-size: medium;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+  
+  position: absolute; /* Ensures it follows exact positioning */
+  top: 200px; /* Keeps the vertical position */
+
+  left: 50%; /* Move left edge to the center */
+  transform: translateX(-50%); /* Shift it back by half its width */
+}
+
+
+#login-title-container #login-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+#login-title-container {
+  background: #4d866c
+}
+
+#login-logo-container {
+  margin-bottom: 1.5em;
+}
+
+
+#licenseAgreements {
+  position: absolute;
+  top: calc(200px + 200px); /* Adjusted to be below the login form */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#webStartLogin {
+  position: absolute;
+  top: calc(200px + 250px); /* Slightly below license agreements */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* #login-logo { */
+  /* position: absolute; Ensures it follows exact positioning */
+  /* left: 50%; Move left edge to the center */
+  /* transform: translateX(-50%); Shift it back by half its width */
+  /* top: 700px; Keeps the vertical position */
+/* } */
+
+
+body {
+  background-color: #d7d7d7; /* Gray */
+   display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh; /* Make body take full viewport height */
+ margin: 0;
+} 
